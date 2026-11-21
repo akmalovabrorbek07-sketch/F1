@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jami hisob · VELOCITY F1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800;900&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div id="preloader"><div class="loader-ring"></div><div class="pl-text">VELOCITY F1</div></div>
+
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span class="flag"></span><span>VELOCITY<em>.F1</em></span></a>
+    <button class="burger" aria-label="Menyu">☰</button>
+    <nav>
+      <ul id="navMenu">
+        <li><a href="index.html" class="">Bosh sahifa</a></li>
+<li><a href="drivers.html" class="">Pilolar</a></li>
+<li><a href="teams.html" class="">Jamoalar</a></li>
+<li><a href="circuits.html" class="">Treklar</a></li>
+<li><a href="calendar.html" class="">Kalendar</a></li>
+<li><a href="standings.html" class="active">Hisob</a></li>
+<li><a href="history.html" class="">Tarix</a></li>
+<li><a href="technology.html" class="">Texnologiya</a></li>
+<li><a href="gallery.html" class="">Galereya</a></li>
+<li><a href="news.html" class="">Yangiliklar</a></li>
+      </ul>
+    </nav>
+    <button class="theme-btn" aria-label="Mavzuni almashtirish">☀️</button>
+  </div>
+</header>
+
+<div class="page-hero wrap">
+      <div class="crumbs"><b>Bosh sahifa</b> / Jami hisob</div>
+      <h1>Jami hisob</h1>
+      <p class="sec-sub" style="margin-top:16px">Chempionatning to'liq ko'rinishi — pilolar va konstruktorlar jadvallari, ballar tizimi izohlari bilan.</p>
+    </div>
+<section style="padding-top:30px">
+  <div class="wrap">
+    <span class="kicker">Ballar tizimi</span>
+    <h2 class="sec-title">Qanday <span class="grad-text">hisoblanadi?</span></h2>
+    <p class="sec-sub">Poygada 1–10 o'rindagilar ball oladi: 25–18–15–12–10–8–6–4–2–1. Tez aylanish uchun 1 qo'shimcha ball (fastest lap, agar 10 likka kirgan bo'lsa). Sprint poygada esa 8–1 ball beriladi. Jamoa balli — ikki pilosining yig'indisi.</p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:22px">
+      <span class="team-chip">🥇 1-o'rin = 25 ball</span>
+      <span class="team-chip">🥈 2-o'rin = 18 ball</span>
+      <span class="team-chip">🥉 3-o'rin = 15 ball</span>
+      <span class="team-chip">⚡ Fastest lap = +1 ball</span>
+      <span class="team-chip">🏎️ Sprint = 8–1 ball</span>
+    </div>
+  </div>
+</section>
+<section style="padding-top:40px">
+  <div class="wrap">
+    <span class="kicker">Pilolar chempionati</span>
+    <h2 class="sec-title">Haydovchilar <span class="grad-text">jadvali</span></h2>
+    <div class="table-shell reveal" style="margin-top:30px;overflow-x:auto">
+      <table style="min-width:640px">
+        <thead><tr><th>#</th><th>Pilo</th><th>Jamoa</th><th>Raqam</th><th>G'alaba</th><th>Tribuna</th><th>Ball</th></tr></thead>
+        <tbody id="driversTable"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<section style="padding-top:40px;padding-bottom:100px">
+  <div class="wrap">
+    <span class="kicker">Konstruktorlar</span>
+    <h2 class="sec-title">Jamoalar <span class="grad-text">jadvali</span></h2>
+    <div class="table-shell reveal" style="margin-top:30px;overflow-x:auto">
+      <table style="min-width:520px">
+        <thead><tr><th>#</th><th>Jamoa</th><th>G'alaba</th><th>Ball</th></tr></thead>
+        <tbody id="constructorsTable"></tbody>
+      </table>
+    </div>
+    <p style="color:var(--muted);margin-top:16px;font-size:.85rem">* Ma'lumotlar fan-portal uchun ko'rsatmaviy formatda tayyorlangan.</p>
+  </div>
+</section>
+
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="index.html" class="logo"><span class="flag"></span><span>VELOCITY<em>.F1</em></span></a>
+        <p class="foot-desc">Formula 1 olamiga bag'ishlangan zamonaviy fan-portal: pilolar, jamoalar, treklar, tarix va texnologiyalar — barchasi bir joyda.</p>
+      </div>
+      <div>
+        <h5>Sahifalar</h5>
+        <a href="drivers.html">Pilolar</a>
+        <a href="teams.html">Jamoalar</a>
+        <a href="circings.html" style="display:none"></a>
+        <a href="circuits.html">Treklar</a>
+        <a href="calendar.html">Kalendar</a>
+      </div>
+      <div>
+        <h5>Musobaqa</h5>
+        <a href="standings.html">Jami hisob</a>
+        <a href="history.html">F1 Tarixi</a>
+        <a href="technology.html">Texnologiya</a>
+        <a href="news.html">Yangiliklar</a>
+      </div>
+      <div>
+        <h5>Jamoa</h5>
+        <a href="gallery.html">Galereya</a>
+        <a href="index.html#about">Biz haqimizda</a>
+        <a href="news.html">Aloqa</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span class="year"></span> VELOCITY.F1 — Formula 1 fan-portali. Barcha huquqlar himoyalangan.</span>
+      <span>Tezlik chegarasi yo'q 🏁</span>
+    </div>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="Yuqoriga">↑</button>
+<div class="lightbox" id="lightbox"><img src="" alt=""><button aria-label="Yopish">✕</button></div>
+<script src="js/main.js"></script>
+</body>
+</html>
